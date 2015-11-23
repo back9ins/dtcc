@@ -1,5 +1,9 @@
 # DTCC integration in Ruby for POV/FAR
 
+BackNine uses DTCC POV and FAR files to update inforce policies.  The data is available to view at https://app.back9ins.com or via BackNine's API.  This open sourced repo will parse POV and FAR files into JSON.  
+
+--
+
 DTCC only allows connection & data transmission via SFTP.
 
 The bash script `get.sh` uses Unix's `sftp` to connect and place the text files inside of the `dtcc/data/outstanding` directory, ex:
