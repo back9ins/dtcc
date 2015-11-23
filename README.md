@@ -12,6 +12,8 @@ expect "sftp>"
 send "mget * \n
 ```
 
+**Note: the directory to `cd` into will be different for your setup**
+
 The commands in the bash script `cd` into the DTCC directory and place them in the server's local directory for DTCC data.
 
 The `run.rb` script is where the magic happens.
